@@ -2,7 +2,7 @@
    It should contain at least the root `toctree` directive.
 
 ################################
-|examen| Examen Final IPyIC 2023
+|examen| Examen Final IPyIC 2024
 ################################
 .. |examen| image:: _static/user-graduate.svg
 	    :width: 52
