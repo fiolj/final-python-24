@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crucigrama &mdash; documentación de Examen Final IPyCI - 10/04/2023</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/rtd_overrides.css" type="text/css" />
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=b2d0b92d"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=efdbd0b9"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Futbol codificado" href="ej_fifa.html" />
+    <link rel="prev" title="Examen Final IPyIC 2023" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Examen Final IPyCI
+              <img src="_static/logo.svg" class="logo" alt="Logotipo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Problemas:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#"> Crucigrama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_fifa.html"> Futbol codificado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_manejodatos.html"> Manejo y análisis de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_criptografia.html"> Análisis criptográfico de texto</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Información:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="lineamientos.html"> Modalidad del examen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pmp.html"> Preguntas muy preguntadas</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Examen Final IPyCI</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"> Crucigrama</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/ej_crucigrama.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="icono-crucigrama">
+<h1><a class="reference internal" href="_images/crucigrama.svg"><img alt="icono" src="_images/crucigrama.svg" width="52" /></a> Crucigrama<a class="headerlink" href="#icono-crucigrama" title="Link to this heading"></a></h1>
+<p>Un crucigrama es un pasatiempo en el que se deben descubrir palabras que se entrecruzan en una cuadrícula, a partir de unas definiciones o sugerencias que se proporcionan y de las pistas que van generándose con el conocimiento de las letras de otras palabras que hayamos acertado.</p>
+<p>Este ejercicio está relacionado con el problema de resolución de un crucigrama.</p>
+<ul class="simple">
+<li><p>Hay dos con grilla y definiciones.</p></li>
+<li><p>La grilla de entrada del crucigrama está dada en un archivo en forma de texto donde las casillas vacías se representan con un guión «_» y las casillas en negro con un asterisco «*».</p></li>
+<li><p>Las definiciones y soluciones, están dadas en el mismo archivo donde se encuentra la grilla.</p></li>
+</ul>
+<ol class="arabic">
+<li><p>En primer lugar se pide que escriba una rutina que lea el archivo con las definiciones de las grillas y de las palabras, y grafique el crucigrama con la numeración correcta. Por ejemplo, de la definición:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">cruci</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">_____*___</span>
+<span class="s2">_____*___</span>
+<span class="s2">____*____</span>
+<span class="s2">___*_____</span>
+<span class="s2">**_____**</span>
+<span class="s2">_____*___</span>
+<span class="s2">____*____</span>
+<span class="s2">___*_____</span>
+<span class="s2">___*_____</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+</div>
+<p>debe graficar algo similar a:</p>
+<img alt="_images/crucigrama.png" src="_images/crucigrama.png" />
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ol class="arabic simple">
+<li><p>La grilla siempre es cuadrada.</p></li>
+<li><p>La grilla de entrada en formato texto puede tener espacios en blanco en cualquier lugar, que deben ser ignorados.</p></li>
+<li><p>La rutina debe verificar que la grilla sea válida.</p></li>
+</ol>
+</div>
+</li>
+<li><p>El programa debe también verificar que las soluciones son compatibles con la grilla dada.</p></li>
+<li><p>Para administrar la interacción con el jugador, el programa debe:</p>
+<ul class="simple">
+<li><p>implementar una manera sencilla para que el jugador proponga letras</p></li>
+<li><p>mostrar la grilla actualizada</p></li>
+<li><p>Verificar al completarse una palabra y dar una indicación si no es correcta</p></li>
+<li><p>Verificar que el crucigrama está completo y dar un mensaje de finalización</p></li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Los gráficos no tiene que ser idénticos a los mostrados en el enunciado, pueden ser mejores.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Los archivos de texto <a href="#id1"><span class="problematic" id="id2">*</span></a>cruci1.txt» y <a href="#id3"><span class="problematic" id="id4">*</span></a>cruci2.txt» con datos de dos crucigramas distintos se encuentran en <a class="reference external" href="https://drive.google.com/drive/folders/1QPfXnk7rBGXmsxvxiiItg6hEkglZMnaZ?usp=share_link">data</a></p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="index.html" class="btn btn-neutral float-left" title="Examen Final IPyIC 2023" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="ej_fifa.html" class="btn btn-neutral float-right" title="Futbol codificado" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor Cátedra IB.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

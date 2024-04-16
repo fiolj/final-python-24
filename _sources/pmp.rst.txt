@@ -1,0 +1,39 @@
+#################################
+|icono| Preguntas muy preguntadas
+#################################
+
+.. |icono| image:: _static/question-circle.svg
+	   :width: 52
+
+En esta sección se aclararán dudas que surjan recurrentemente respecto al examen final
+
+
+******************
+Sobre la Modalidad
+******************
+
+- ¿Las fechas de examen son rígidas?
+
+  Sí. Si surge alguna razón de fuerza mayor, considerando la situación actual debe comunicarse con la cátedra al menos dos días antes de la fecha de entrega.
+
+- ¿Se puede utilizar la característica **X** de *Python*?
+
+  Sí, se pueden utilizar todos los elementos del lenguaje que se necesiten.
+
+  La idea del examen es que se resuelva de manera similar a como uno resolvería un problema diariamente en el trabajo. Piensa soluciones, busca información, discute posibles formas de resolverlo con colegas (otros estudiantes) y con mentores (cátedra en este caso) e implementa el código de la mejor manera posible en el tiempo disponible (hasta la fecha de entrega).
+
+  La única restricción, relacionada con la calificación, es que no se puede copiar código de otros estudiantes u otras fuentes.
+
+- ¿El problema no lo pide explícitamente pero se me ocurre agregar esta solución?
+
+  Perfecto! Otra característica del examen es que no se pide una solución similar a la obtenida por los docentes. La idea es que si se le ocurre algo extra que resulte útil o "lindo" respecto al problema lo implemente.
+
+  Si se le ocurre una variante a alguno de los puntos requeridos, puede modificar el examen. Si las modificaciones que se le ocurre son sustanciales puede comentarlo con la cátedra antes de implementarlas.
+
+- La elección del problema se actualizó en la planilla. ¿La calificación se publicará también?
+
+  No, la nota se dará en forma privada a cada persona.
+
+- ¿Dónde están los archivos que necesito para resolver el problema?
+
+  Todos los archivos que se necesitan están en el directorio `data <https://drive.google.com/drive/folders/1QPfXnk7rBGXmsxvxiiItg6hEkglZMnaZ?usp=share_link>`_

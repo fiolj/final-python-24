@@ -1,0 +1,113 @@
+.. Examen Final IPyIC documentation master file
+   It should contain at least the root `toctree` directive.
+
+################################
+|examen| Examen Final IPyIC 2023
+################################
+.. |examen| image:: _static/user-graduate.svg
+	    :width: 52
+
+:Institución: Instituto Balseiro - Univ. Nac. de Cuyo
+:Fecha: |today|
+:Docentes: Juan Fiol y Flavio Colavecchia
+
+El examen final consiste en la resolución de **uno solo** de los cuatro problemas presentados, a elección.
+
+
+.. raw:: html
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="lineamientos.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/list-alt.svg" class="card-img-top" alt="fas list-alt icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Lineamientos</h5>
+                  <p class="card-text">Acá encontrará los lineamientos de modalidad del examen incluyendo varios aspectos que se tendrán en cuenta, así como fechas de entrega. </p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="pmp.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/question-circle.svg" class="card-img-top" alt="fas question-circle icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">PMP</h5>
+                  <p class="card-text">Preguntas Muy Preguntadas (FAQ) es una sección que va ser actualizadas con aclaraciones sobre dudas que surgan tanto sobre la modalidad del examen como sobre los problemas.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_crucigrama.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/crucigrama.svg" class="card-img-top" alt="fas chart-line icon" width="60">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Crucigrama</h5>
+                  <p class="card-text">Este es un ejercicio basado en el pasatiempo crucigrama. Realizará un programa para simular el juego de una persona resolviendo una grilla dada.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_criptografia.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/user-secret.svg" class="card-img-top" alt="fas language icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Análisis criptográfico de texto</h5>
+                  <p class="card-text">Vamos a descifrar mensajes secretos, que fueron encriptados con un método que conocemos, pero no tenemos las claves.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference internal" href="ej_fifa.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/futbol.svg" class="card-img-top" alt="fas barcode icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Fútbol codificado</h5>
+                  <p class="card-text">En este problema analizamos datos detallados de un partido de fútbol. Utilizando los datos en cada instante podemos determinar características de los equipos y de cada jugador.</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+    
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+          <a class="reference external" href="ej_manejodatos.html"><span class="std std-ref">
+              <div class="card text-center intro-card shadow">
+                <img src="_static/atom.svg" class="card-img-top" alt="fas atom icon" width="52">
+                <div class="card-body flex-fill">
+                  <h5 class="card-title">Manejo y análisis de Datos</h5>
+                  <p class="card-text">En este ejercicio se analiza un conjunto de datos de mediciones tomados en distintos días. Debe realizar un programa que lea los datos, los analice y grafique los resultados en forma adecuada</p>
+                </div>
+          </span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Problemas:
+   :hidden:
+
+   ej_crucigrama
+   ej_fifa
+   ej_manejodatos
+   ej_criptografia
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Información:
+   :hidden:
+
+   lineamientos
+   pmp
+
+   

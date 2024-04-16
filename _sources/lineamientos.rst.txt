@@ -1,0 +1,103 @@
+############################
+|icono| Modalidad del examen
+############################
+
+.. |icono| image:: _static/list-alt.svg
+	   :width: 52
+
+La modalidad del examen es '*domiciliario*'.
+Cada estudiante debe elegir un problema, resolverlo y enviar su resolución por correo electrónico. La entrega consiste únicamente de uno o más archivos de programa, sin datos o figuras.
+
+
+******
+Fechas
+******
+
+Hay dos fechas importantes previstas en este período de examen:
+
++ El día |deadline1| o antes se deberá enviar un mensaje por correo electrónico indicando que ejercicio se eligió para resolver
++ El día |deadline2| al mediodía es la fecha límite para entregar la resolución del ejercicio elegido. 
+
+
+*********
+Consultas
+*********
+
+Durante el período de resolución del examen (|entrega| a |deadline2|) se permiten consultas a los docentes. Estas pueden incluir explicaciones y aclaraciones sobre los problemas, discusiones sobre métodos de resolución o módulos o paquetes extra de python que puedan utilizarse, etc.
+
+Además se permiten (y alientan) discusiones entre estudiantes que incluyan todos los aspectos que se discuten con la cátedra, **exceptuando** compartir código.
+
+**No** está permitido copiar resoluciones de los problemas que se encuentren en internet pero es perfectamente válido utilizar métodos encontrados de aspectos específicos, previa reescritura propia del código.
+
+
+*******************************
+Elección y entrega de problemas
+*******************************
+
+.. table::
+
+    +---------------------------+------------------------------------------------+-----------+
+    | Estudiante                | Ejecicio elegido                               | Entregado |
+    +===========================+================================================+===========+
+    | Besana, Rocío             | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Biasetti, Demian          | Decaimiento espontáneo de estados metaestable  | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Blatter, Gastón           | Decaimiento espontáneo de estados metaestable  | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Cabaña, Agustín           | Futbol Codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Casse, Juan               | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Chehade, Pablo            | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Churlis, Alexis           | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Constantinidis, Adonis    | Futbol Codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Di Pratula, Pablo         | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Escudero, Estanislao      | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Figueroa, Alejo           | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Gomez Farfán, María       | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | González, Tomás           | Futbol codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Lopez, Matías             | Futbol codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Madile, Marco             | Futbol codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Mallerman, Santiago       | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Mocciaro, Bruno           | Futbol Codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Moreno, Lisandro          | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Moreno Segura, Oscar      | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Mosquera, Matías          | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Navarro, Florencia Nataly | Decaímiento espontáneo de estados metaestables | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Orozco, María José        | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Pasquevich. Ian           | Análisis criptográfico de texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Perez, Ezequiel           | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Perez Mirabal, Rocío      | Simulación de medición y análisis de datos     | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Rodriguez, Jean           | Decaimiento espontáneo de estados metaestable  | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | San Martin, Nicolás       | Futbol codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Segovia, Tadeo            | Análisis Criptográfico de Texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Stella, Valentina         | Análisis Criptográfico de Texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Suarez, Daniela           | fútbol codificado                              | Si        |
+    +---------------------------+------------------------------------------------+-----------+
+    | Vallejo, Facundo          | Análisis Criptográfico de Texto                | Si        |
+    +---------------------------+------------------------------------------------+-----------+
