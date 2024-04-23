@@ -33,3 +33,26 @@ Además se permiten (y alientan) discusiones entre estudiantes que incluyan todo
 *******************************
 Elección y entrega de problemas
 *******************************
+
+======================= =============================== =========
+Estudiante              Ejecicio elegido                Entregado
+======================= =============================== =========
+Canciani, Patricio      Manejo y Análisis de Datos      
+Catalano, Nicolás       Manejo y Análisis de Datos      
+Fabiani, Joaquín        Fútbol codificado               
+Fazzari, Rosendo        Análisis criptográfico de texto 
+Gómez, Andrea           Análisis criptográfico de texto 
+Guarda, Tamara          Manejo y Análisis de Datos      
+Gutierrez, Silvina      Crucigrama                      
+Jaramillo, Alejandra    Manejo y Análisis de Datos      
+Maturana, Roberto       Crucigrama                      
+Mejia Parra, Oscar      Fútbol codificado               
+Menger, Lucas           Manejo y Análisis de Datos      
+Morales, Juan           Fútbol codificado               
+Moreno Rodríguez, Andy  Análisis criptográfico de texto 
+Núñez Selin, Alejandro  Manejo y Análisis de Datos      
+Reparaz, Valentín       Análisis criptográfico de texto 
+Sojo Farfán, Juan       Manejo y Análisis de Datos      
+Sosa, Nicolás           Análisis criptográfico de texto 
+Tene Chávez, Cristopher Fútbol codificado               
+======================= =============================== =========

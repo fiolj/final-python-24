@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulación de medición y análisis de datos &mdash; documentación de Examen Final IPyCI - 16/04/2024</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/rtd_overrides.css" type="text/css" />
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/translations.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Examen Final IPyCI
+            <img src="_static/logo.svg" class="logo" alt="Logotipo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Problemas:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ej_crucigrama.html"> Crucigrama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_fifa.html"> Futbol codificado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_manejodatos.html"> Manejo y análisis de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_criptografia.html"> Análisis criptográfico de texto</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Información:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="lineamientos.html"> Modalidad del examen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pmp.html"> Preguntas muy preguntadas</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Examen Final IPyCI</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active"> Simulación de medición y análisis de datos</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/ej_deteccion.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="icono-simulacion-de-medicion-y-analisis-de-datos">
+<h1><a class="reference internal" href="_images/chart-line.svg"><img alt="icono" src="_images/chart-line.svg" width="52" /></a> Simulación de medición y análisis de datos<a class="headerlink" href="#icono-simulacion-de-medicion-y-analisis-de-datos" title="Enlace permanente a este encabezado"></a></h1>
+<section id="definicion-del-problema">
+<h2>Definición del problema<a class="headerlink" href="#definicion-del-problema" title="Enlace permanente a este encabezado"></a></h2>
+<p>Consideremos un experimento donde cada evento detectado produce un pulso que se registra.
+Como no tenemos el equipo de medición vamos a realizar una simulación del sistema y su detección</p>
+<p>En el eje horizontal ocurre el intervalo de tiempo en que se espera la señal. A tiempos específicos el detector produce señales que se registran.</p>
+<ul>
+<li><p>El detector produce una señal que puede modelarse con la función</p>
+<div class="math notranslate nohighlight">
+\[S(t) = A e^{-(t-t_0)^2/2 \sigma^2} \, \cos\left[\omega (t-t_0 + \sigma) \right]\]</div>
+</li>
+</ul>
+<p>donde la constante <span class="math notranslate nohighlight">\(A\)</span> es tal que la integral del pulso es igual a 1.</p>
+<a class="reference internal image-reference" href="_images/ej_deteccion_modelo.png"><img alt="_images/ej_deteccion_modelo.png" class="align-center" src="_images/ej_deteccion_modelo.png" style="width: 70%;" /></a>
+<ul class="simple">
+<li><p>La señal modelo está caracterizada por tres parámetros: el centro <span class="math notranslate nohighlight">\(t_0\)</span>, el ancho <span class="math notranslate nohighlight">\(\sigma\)</span> y la frecuencia de la oscilación <span class="math notranslate nohighlight">\(\omega\)</span>. Cada uno de estos parámetros no va a ser exactamente igual en cada señal registrada sino que van a variar con ciertas probabilidades:</p></li>
+<li><p>En cada intervalo de tiempo la señal puede estar formada por cero, uno o más pulsos generados por el detector como se ve en la siguiente animación</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/ej_deteccion_signals.gif"><img alt="_images/ej_deteccion_signals.gif" class="align-center" src="_images/ej_deteccion_signals.gif" style="width: 85%;" /></a>
+<p>Como los distintos pulsos que forman la señal corresponden a distintos eventos que pueden ocurrir en un dado intervalo de tiempo, tienen distinta probabilidad de ocurrir. Por ejemplo, en la animación anterior el pico de la izquierda tiene una probabilidad de 70% de ocurrir mientras que el pico de la derecha tiene un 60%.</p>
+<p>En este problema se pide que se realice la simulación de este proceso de medición y el análisis posterior de los datos.</p>
+<section id="simulacion-de-la-medicion">
+<h3>Simulación de la medición<a class="headerlink" href="#simulacion-de-la-medicion" title="Enlace permanente a este encabezado"></a></h3>
+<ul>
+<li><p>Vamos a simular la medición, como la que se muestra en la animación anterior, considerando tres picos, localizados en tiempos <span class="math notranslate nohighlight">\(t_{0}=1.8, 2.8, 5\)</span>. Las tres señales tienen probabilidades de ocurrir que son iguales a <span class="math notranslate nohighlight">\(P = 0.3, 0.1, 0.6\)</span>, respectivamente.</p>
+<ul>
+<li><p>La posición de cada pico va a estar determinada por la distribución <a class="reference external" href="https://en.wikipedia.org/wiki/Beta_prime_distribution">Beta prime</a> dada por:</p>
+<div class="math notranslate nohighlight">
+\[\beta'(x)={\frac {x^{{a - 1}}(1+x)^{{-a -b}}}{B(a , b )}}\]</div>
+<p>centrada en <span class="math notranslate nohighlight">\(t_{0}\)</span>, con parámetros <span class="math notranslate nohighlight">\(a=4\)</span> y <span class="math notranslate nohighlight">\(b=2\)</span> (ver <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.betaprime.html#scipy.stats.betaprime">scipy.stats.betaprime</a>) donde <span class="math notranslate nohighlight">\(B\)</span> es la función <a class="reference external" href="https://en.wikipedia.org/wiki/Beta_function">distribución Beta</a>. El ancho de la distribución de tiempos será <span class="math notranslate nohighlight">\(\sigma_{t}= 0.15\)</span></p>
+</li>
+<li><p>El ancho <span class="math notranslate nohighlight">\(\sigma\)</span> del pico central varía con probabilidad dada por una <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html">distribución normal</a> con valor medio <span class="math notranslate nohighlight">\(\sigma_{0} = 0.05 \mu s\)</span> e incerteza <span class="math notranslate nohighlight">\(\sigma_{\sigma}= 0.005\)</span>.</p></li>
+<li><p>La frecuencia de la oscilación <span class="math notranslate nohighlight">\(\omega\)</span> varía con probabilidad dada por una <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html">distribución normal</a> centrada en <span class="math notranslate nohighlight">\(\omega_{0} = 5 \pi\)</span> (en unidades de <span class="math notranslate nohighlight">\(1/\mu s\)</span>), con incerteza  <span class="math notranslate nohighlight">\(\sigma_{\omega}= 0.05\)</span>.</p></li>
+<li><p>La medición tiene un «ruido» estadístico azaroso, con distribución normal que tiene dos componentes: una absoluta y una relativa. El ruido relativo tiene un valor medio igual a 1 y un ancho igual a 0.1, y se multiplica a la señal. El ruido absoluto tiene un valor medio nulo, con ancho igual a <span class="math notranslate nohighlight">\(0.2\)</span> y simplemente se suma a la señal.</p></li>
+<li><p>Todo el espectro está montado sobre un fondo lineal <span class="math notranslate nohighlight">\(f(t) = (- t + 2)/100\)</span></p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="enunciado">
+<h2>Enunciado<a class="headerlink" href="#enunciado" title="Enlace permanente a este encabezado"></a></h2>
+<p>Se le pide que:</p>
+<ol class="arabic">
+<li><p>Realice una animación simulando el «display» de medición como se muestra más arriba.</p></li>
+<li><p>Escriba una rutina (función o método de un objeto) que devuelva el resultado de <code class="docutils literal notranslate"><span class="pre">N</span></code> mediciones. Grafique el promedio de esas mediciones como se muestra en la figura</p>
+<a class="reference internal image-reference" href="_images/ej_deteccion_promedio.png"><img alt="_images/ej_deteccion_promedio.png" class="align-center" src="_images/ej_deteccion_promedio.png" style="width: 70%;" /></a>
+</li>
+<li><p>Obtenga los datos de promedios de 10000 mediciones para tres casos diferentes</p>
+<ul class="simple">
+<li><p>Los picos en <span class="math notranslate nohighlight">\(t_{0}=1.8, 2.8, 5\)</span> tienen probabilidades de ocurrir <span class="math notranslate nohighlight">\(P =  1, 0, 0\)</span></p></li>
+<li><p>Los picos en <span class="math notranslate nohighlight">\(t_{0}=1.8, 2.8, 5\)</span> tienen probabilidades de ocurrir <span class="math notranslate nohighlight">\(P = 0.8, 0.1, 0.1\)</span></p></li>
+<li><p>Los picos en <span class="math notranslate nohighlight">\(t_{0}=1.8, 2.8, 3.5\)</span> tienen probabilidades de ocurrir <span class="math notranslate nohighlight">\(P = 0.85, 0.1, 0.05\)</span></p></li>
+</ul>
+<p>Grafique los tres casos, indicando en la figura la posición del máximo para cada pico y el ancho a altura mitad.</p>
+</li>
+<li><p>Utilizando los datos del inciso anterior, suponiendo que los tres picos tienen la misma forma, obtenga una estimación del área de cada pico en los tres casos mediante un ajuste por cuadrados mínimos.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor Cátedra IB.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

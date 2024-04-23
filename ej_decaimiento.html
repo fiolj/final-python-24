@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decaímiento espontáneo de estados metaestables &mdash; documentación de Examen Final IPyCI - 16/04/2024</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/rtd_overrides.css" type="text/css" />
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/translations.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Examen Final IPyCI
+            <img src="_static/logo.svg" class="logo" alt="Logotipo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Problemas:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ej_crucigrama.html"> Crucigrama</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_fifa.html"> Futbol codificado</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_manejodatos.html"> Manejo y análisis de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ej_criptografia.html"> Análisis criptográfico de texto</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Información:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="lineamientos.html"> Modalidad del examen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pmp.html"> Preguntas muy preguntadas</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Examen Final IPyCI</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active"> Decaímiento espontáneo de estados metaestables</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/ej_decaimiento.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="icono-decaimiento-espontaneo-de-estados-metaestables">
+<h1><a class="reference internal" href="_images/atom.svg"><img alt="icono" src="_images/atom.svg" width="52" /></a> Decaímiento espontáneo de estados metaestables<a class="headerlink" href="#icono-decaimiento-espontaneo-de-estados-metaestables" title="Enlace permanente a este encabezado"></a></h1>
+<section id="definicion-del-problema">
+<h2>Definición del problema<a class="headerlink" href="#definicion-del-problema" title="Enlace permanente a este encabezado"></a></h2>
+<p>Cuando una partícula (núcleo, átomo, o molécula) se encuentra en un estado que no es estable, puede decaer espontánemente. Por ejemplo, algunos núcleos decaen a otros emitiendo radiación <span class="math notranslate nohighlight">\(\alpha\)</span>, <span class="math notranslate nohighlight">\(\beta\)</span> o <span class="math notranslate nohighlight">\(\gamma\)</span>. Otro ejemplo es el de átomos, que pueden decaer a un estado más estable emitiendo luz o electrones.</p>
+<p>La probabilidad de decaímiento de cada partícula en un intervalo de tiempo <span class="math notranslate nohighlight">\(\Delta t\)</span> es constante. Además, cada partícula actúa independientemente, o sea que el decaímiento de una dada partícula no influye en las otras partículas.
+Por lo tanto, el número de partículas que decaen en un instante dado es proporcional al número total de partículas. O sea que si la probabilidad por unidad de tiempo de que una partícula decaiga tiene el valor constante <span class="math notranslate nohighlight">\(P\)</span>, el número de partículas que decaen será</p>
+<div class="math notranslate nohighlight" id="equation-ec1">
+<span class="eqno">(1)<a class="headerlink" href="#equation-ec1" title="Enlace permanente a esta ecuación"></a></span>\[N_d = P \cdot N \cdot \Delta t.\]</div>
+<p>Si en un instante <span class="math notranslate nohighlight">\(t_0\)</span> dado tenemos <span class="math notranslate nohighlight">\(N(t_{0})\)</span> partículas y en el intervalo <span class="math notranslate nohighlight">\(\Delta t\)</span> decaen <span class="math notranslate nohighlight">\(N_d\)</span> partículas, claramente a tiempo <span class="math notranslate nohighlight">\(t_0 + \Delta t\)</span> tendremos <span class="math notranslate nohighlight">\(N(t_0 + \Delta t) = N(t) - N_d\)</span> partículas.</p>
+<p>Utilizando que <span class="math notranslate nohighlight">\(N_d\)</span> es proporcional a <span class="math notranslate nohighlight">\(N\)</span> (ecuación <a class="reference internal" href="#equation-ec1">(1)</a>) obtenemos una ecuación para el número de partículas que quedan como función del tiempo:</p>
+<div class="math notranslate nohighlight">
+\[N(t+\Delta t) - N(t) = - P \cdot N(t)  \Delta t.\]</div>
+<p>o, equivalentemente para el el cambio en el número de partículas por unidad de tiempo <span class="math notranslate nohighlight">\(\Delta N / \Delta t\)</span></p>
+<div class="math notranslate nohighlight" id="equation-n-t">
+<span class="eqno">(2)<a class="headerlink" href="#equation-n-t" title="Enlace permanente a esta ecuación"></a></span>\[\frac{\Delta N(t)}{\Delta t} = -P \cdot N(t)\]</div>
+<p>Este ejercicio propone estudiar mediante simulaciones la evolución en el tiempo del número <span class="math notranslate nohighlight">\(N(t)\)</span> de partículas en una caja que decaen espontáneamente.
+Para ello se pide:</p>
+</section>
+<section id="enunciado">
+<h2>Enunciado<a class="headerlink" href="#enunciado" title="Enlace permanente a este encabezado"></a></h2>
+<section id="etapa-1">
+<h3>Etapa 1<a class="headerlink" href="#etapa-1" title="Enlace permanente a este encabezado"></a></h3>
+<ol class="arabic">
+<li><p>Escribir un programa que simule el decaimiento espontáneo de <span class="math notranslate nohighlight">\(N\)</span> partículas en una caja y permita obtener el número de partículas como función del tiempo.</p></li>
+<li><p>Graficar el número de partículas <span class="math notranslate nohighlight">\(N(t)\)</span> y de la diferencia <span class="math notranslate nohighlight">\(\Delta N\)</span> como función del tiempo <span class="math notranslate nohighlight">\(t\)</span> para distintos valores del número inicial de partículas <span class="math notranslate nohighlight">\(N_0=10, 100, \dots, 100000\)</span> (logarítmicamente espaciado).</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/ej_decaim_fig1.png"><img alt="_images/ej_decaim_fig1.png" src="_images/ej_decaim_fig1.png" style="width: 45%;" /></a>
+</figure>
+<p>Ejemplo de gráfico</p>
+</li>
+<li><p>Ajuste los valores de <span class="math notranslate nohighlight">\(N(t)\)</span> suponiendo que tiene un comportamiento del tipo:</p>
+<ol class="loweralpha simple">
+<li><p><span class="math notranslate nohighlight">\(f(t) = A t^{\alpha}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(t) = B e^{- \lambda t}\)</span></p></li>
+</ol>
+<p>para cada valor de <span class="math notranslate nohighlight">\(N\)</span>, encuentre cuál da un mejor ajuste y relacione los resultados obtenidos para las constantes con los parámetros del problema <span class="math notranslate nohighlight">\(N_0\)</span> y <span class="math notranslate nohighlight">\(P\)</span>.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Considere valores de la probabilidad por unidad de tiempo adecuados. En la figura se usó un valor <span class="math notranslate nohighlight">\(P \cdot \Delta t \approx 0.13\)</span></p>
+</div>
+</section>
+<section id="etapa-2">
+<h3>Etapa 2<a class="headerlink" href="#etapa-2" title="Enlace permanente a este encabezado"></a></h3>
+<p>Ahora modificamos levemente la física del problema. Considere que cuando cada partícula decae emite un electrón con una energía media igual a 10 eV. que se mide con un detector que se encuentra a una distancia de 1 m. La energía del electrón emitido tiene una distribución Gaussiana con ancho <span class="math notranslate nohighlight">\(\sigma\)</span> igual al 10% de su energía media. Considere sólo un valor de <span class="math notranslate nohighlight">\(N_0\)</span> (tome <span class="math notranslate nohighlight">\(N_0 = 10^5\)</span> o <span class="math notranslate nohighlight">\(10^6\)</span>).</p>
+<div class="admonition hint">
+<p class="admonition-title">Consejo</p>
+<p>Recuerde que el paquete <em>Scipy</em> tiene un módulo con definiciones de unidades y constantes matemáticas y físicas</p>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>El detector tiene un área dada y es del tipo centellador. Cada vez que detecta un electrón se ilumina la posición a la que el electrón llega. Simule cómo se vería el detector en estas condiciones, donde en función del tiempo se van detectando nuevas partículas.</p></li>
+<li><p>Simular el número de electrones detectados por unidad de tiempo en estas condiciones. La probabilidad por unidad de tiempo es <span class="math notranslate nohighlight">\(P=3.2 \times 10^{6}\)</span>. Grafique el número de electrones detectados y emitidos como función del tiempo, como se muestra en la figura:</p></li>
+</ol>
+<blockquote>
+<div><figure class="align-center">
+<a class="reference internal image-reference" href="_images/ej_decaim_fig2.png"><img alt="_images/ej_decaim_fig2.png" src="_images/ej_decaim_fig2.png" style="width: 50%;" /></a>
+</figure>
+</div></blockquote>
+</section>
+<section id="etapa-3">
+<h3>Etapa 3<a class="headerlink" href="#etapa-3" title="Enlace permanente a este encabezado"></a></h3>
+<ol class="arabic simple" start="6">
+<li><p>Calcule el punto anterior cuando, en lugar de tener un detector pequeño a la distancia de 1 m, se quiere saber el contaje por unidad de tiempo en una pared infinita localizada en esa posición (el problema ya no tiene simetría esférica).</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor Cátedra IB.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
